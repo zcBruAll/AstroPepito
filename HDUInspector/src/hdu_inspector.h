@@ -3,6 +3,6 @@
 
 #include <string>
 
-void processImage(const std::string& filePath);
+void printAllHDUObjects(const std::string& filePath);
 
 #endif

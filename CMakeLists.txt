@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the Image Processor module as a subdirectory
 add_subdirectory(ImageProcessor)
+add_subdirectory(HDUInspector)

@@ -1,5 +1,5 @@
 #include <iostream>             // Standard library for input and output
-#include "image_processing.h"   // Header file for declaring the processImage function
+#include "hdu_inspector.h"   // Header file for declaring the processImage function
 
 int main() {
     // file path to the directory of the FITS data files
@@ -8,10 +8,9 @@ int main() {
     // complete file path to the FITS data file to process
     std::string fitsFilePath = fitsFileDir + "f001a066.fits";
 
-    std::cout << "Welcome to AstroPepito Image Processor!" << std::endl;
+    std::cout << "Welcome to AstroPepito HDU Inspector!" << std::endl;
 
-    // Start of the image processing
-    processImage(fitsFilePath);
+    printAllHDUObjects(fitsFilePath);
 
     return 0;
 }
